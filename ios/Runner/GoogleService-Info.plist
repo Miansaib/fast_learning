@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1028007756666-niha28frll37i58ibnqhro4sp6gscku0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1028007756666-niha28frll37i58ibnqhro4sp6gscku0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDhU5AY0Qi8n4yFe6y6RimdVaS-ST9ZJbA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1028007756666</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.drehsani.Fast.learning</string>
+	<key>PROJECT_ID</key>
+	<string>fast-learning-firebase</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fast-learning-firebase.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1028007756666:ios:2992feea75e3933140ccc3</string>
+</dict>
+</plist>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1028007756666",
+    "project_id": "fast-learning-firebase",
+    "storage_bucket": "fast-learning-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028007756666:android:8e41d5907c3e3d7a40ccc3",
+        "android_client_info": {
+          "package_name": "com.drehsani.Fast_learning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028007756666-lusebokne1jtsm5p476r99mhpgj60i89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1LI3MZxVj3E76bCtdoIoEJ8tdK1MQKB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028007756666-lusebokne1jtsm5p476r99mhpgj60i89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
