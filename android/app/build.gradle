@@ -63,44 +63,17 @@ android {
         multiDexEnabled true
     }
 
-     signingConfigs {
-         release {
-             keyAlias keystoreProperties['keyAlias']
-            keyPassword keystoreProperties['keyPassword']
-             storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
-           storePassword keystoreProperties['storePassword']
-         }
-        }
-   buildTypes {
+    
+    buildTypes {
         release {
-            shrinkResources false
-            minifyEnabled false
-             signingConfig signingConfigs.release
-        }
-        debug {
-            shrinkResources false
-            minifyEnabled false
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
-            //  signingConfig signingConfigs.release
-             signingConfig signingConfigs.release
-        } 
+            signingConfig signingConfigs.debug
+        }
     }
 
 }
 
-// proguard {
-//    configurations {
-//        release {
-//            defaultConfiguration 'proguard-android-optimize.txt'
-//            configuration 'proguard-rules.pro'
-//        }
-//        debug {
-//            defaultConfiguration 'proguard-android-debug.txt'
-//            configuration 'proguard-rules.pro'
-//        }
-//    }
-// }
 
 flutter {
     source '../..'
